@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">HolaUsuarioAvanzado</string>
+
+    <string name="txt_titulo"></string>
+
+
+    <string name="rbtn_españa">Español</string>
+    <string name="rbtn_ingles">Ingles</string>
+    <string name="btn_acepto">Aceptar</string>
+    <string name="chk_acepto">Aceptar Condiciones</string>
+    <string name="titulo_idioma">Idioma</string>
+    <string name="seleccionaColor">Color</string>
+    <string name="texto">Aqui se escribe el texto</string>
+    <string name="agradecimiento">Saludo Hello Hola</string>
+    <string name="noNameMsg">Debes escribir tu nombre</string>
+
+
+    <string name="ingles">Hello</string>
+    <string name="espanol">Hola</string>
+    <string name="nuevoNombre">Escribe aquí tu nombre</string>
+
+    <string name="ninos3">ninos3</string>
+    <string name="hola"></string>
+    <string name="fondoSaludo">fondoSaludo</string>
+
+
+</resources>

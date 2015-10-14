@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    tools:context="com.holausuarioavanzado.holausuarioavanzado.Saludo_Avanzado">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/agradecimiento"
+        android:id="@+id/txtGracias"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView2"
+        android:contentDescription="@string/fondoSaludo"
+        android:src="@drawable/fondo3_1"
+        android:layout_below="@+id/txtGracias"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_nombreEntra"
+        android:textSize="40sp"
+        android:text="@string/hola"
+        android:hint="@string/hola"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/txtGracias"
+        android:layout_alignEnd="@+id/txtGracias"
+        android:layout_alignLeft="@+id/txtGracias"
+        android:layout_alignStart="@+id/txtGracias"
+        android:layout_marginBottom="50dp" />
+
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/imageView"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ninos3"
+                android:contentDescription="@string/ninos3" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/txt_escribirNombre"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:hint="@string/nuevoNombre" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titulo_idioma"
+                android:id="@+id/txt_idioma"
+                android:textSize="25sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/radioBtnIdiomas"
+                android:layout_marginTop="-50dp"
+                android:layout_marginLeft="170dp">
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rbtn_españa"
+                android:id="@+id/español"
+                android:checked="true"
+                android:textSize="20sp"
+                android:clickable="true"
+                android:layout_marginRight="40dp"
+                android:layout_marginEnd="40dp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rbtn_ingles"
+                android:id="@+id/rbtn_ingles"
+                android:textSize="20sp"
+                android:checked="false"
+                android:layout_marginRight="63dp"
+                android:layout_marginEnd="63dp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seleccionaColor"
+                android:id="@+id/titulo_color"
+                android:textSize="25sp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp" />
+
+            <Spinner
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spnColor"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="-28dp" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/condiciones"
+                android:enabled="true"
+                android:text="@string/chk_acepto"
+                android:checked="false"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_acepto"
+                android:id="@+id/aceptar"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:onClick="botonSaludoAvanzado"
+                android:textColor="@color/colorPrimary" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
